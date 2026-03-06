@@ -1,13 +1,13 @@
 # 🚀 Bitespeed Identity Reconciliation
 
 
-#📖 About The Project
+📖 About The Project
 
 This project is a backend service built for Bitespeed's Identity Reconciliation Task.
 The problem is simple — a customer named Dr. Emmett Brown (Doc) shops on FluxKart.com using different email addresses and phone numbers for every purchase. FluxKart wants to recognize that all these orders belong to the same person and give him a personalized experience.
 This service solves that problem by linking all contact details (emails and phone numbers) of the same person together and maintaining a single unified identity for each customer.
 
-#🎯 What This Service Does
+🎯 What This Service Does
 
 Receives an email or phone number from a checkout event
 Searches the database for any matching contacts
@@ -16,7 +16,7 @@ Creates new secondary contacts when new information is found
 Merges two separate contact groups when they are found to belong to the same person
 Returns a consolidated view of the customer's identity
 
-#🔗 How Contacts Are Linked
+🔗 How Contacts Are Linked
 
 Every customer can have multiple contact records in the database
 All records are linked together — the oldest record = Primary, all others = Secondary
