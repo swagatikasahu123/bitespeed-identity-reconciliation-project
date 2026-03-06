@@ -36,18 +36,14 @@ npm install
 ```
 
 ### Step 3 — Setup PostgreSQL Database
-You can use either:
 
-**Option A: Render.com (Free Online)**
+
+** Render.com (Free Online)**
 1. Go to https://render.com and sign up
 2. Click "New" → "PostgreSQL"
 3. Give it a name → Click "Create Database"
 4. Copy the **External Database URL**
 
-**Option B: Local PostgreSQL**
-1. Install PostgreSQL on your machine
-2. Create a database named `bitespeed`
-3. Your URL will be: `postgresql://postgres:yourpassword@localhost:5432/bitespeed`
 
 ### Step 4 — Add Database URL to .env file
 Open `.env` file and replace the DATABASE_URL:
@@ -121,9 +117,9 @@ You should see:
 
 ## 🌐 Live Endpoint
 ```
-POST https://YOUR-APP-NAME.onrender.com/identify
+POST https://bitespeed-identity-reconciliation-project.onrender.com/identify
 ```
-*(Update this after deploying to Render.com)*
+
 
 ---
 
